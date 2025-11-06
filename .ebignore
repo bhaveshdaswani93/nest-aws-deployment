@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+
+# Tests
+test/
+*.spec.ts
+coverage/
+
+# Source files (only deploy dist)
+src/
+
+# Build files
+tsconfig.json
+tsconfig.build.json
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+!DEPLOYMENT.md
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
